@@ -1,0 +1,12 @@
+@startuml sample
+title Sample diagram
+
+actor a as "Alice"
+actor b as "Bob"
+
+a -> b: Hello!
+activate b
+return Hai!
+
+
+@enduml
